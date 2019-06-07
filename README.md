@@ -19,7 +19,7 @@ mis usuarios son nujeres espias previviendo ataques enemigas.
 
 IMAGEN DE MI PRIMER PROTOTIPO EN PAPEL(imagen)
 
-![Diagrama en blanco](https://user-images.githubusercontent.com/51333504/58890638-a01afc80-86b0-11e9-872a-b055b12e80d7.png)
+![Diagrama en blanco]
 
 FEEDBACK RESUMEN PRIMERO
 
