@@ -1,3 +1,16 @@
+#INDICE
+- [Spy Girls](#SPY-GIRLS)
+- [resumen del proyecto](##-RESUMEN-DEL-PROYECTO)
+- [ux inventigacion](##-UX-INVESTIGACIO)
+- [usuarios](###-USUARIOS)
+  - [¿que necesidades soluciona el usuario?](###-¿QUE-NECESIDADES-SOLUCIONA-AL-USUARIO?)
+  - [prototipos](###-PROTOTIPADOS)
+  - [Front-end](#front-end)
+- [Entrega](#entrega)
+- [Parte opcional o "Hacker edition"](#parte-opcional-o-hacker-edition)
+- [Recursos y temas relacionados](#recursos-y-temas-relacionados)
+- [Detalles de aprendizaje](#detalles-de-aprendizaje)
+
 # SPY GIRLS 
 
 ## RESUMEN DEL PROYECTO
@@ -17,9 +30,13 @@ mis usuarios son nujeres espias previviendo ataques enemigas.
 
 ### PROTOTIPOS
 
-IMAGEN DE MI PRIMER PROTOTIPO EN PAPEL(imagen)
+IMAGEN DE MI PRIMER PROTOTIPO EN PAPEL
+![Imagen Prototipo 1](https://user-images.githubusercontent.com/51333504/59077051-9d7dfa00-889e-11e9-8422-582af440bf62.jpg)
 
-![Diagrama en blanco]
+![Imagen Prototipo 2](https://user-images.githubusercontent.com/51333504/59077053-9e169080-889e-11e9-8774-64962a76c91a.jpg)
+
+![Imagen Prototipo 3](https://user-images.githubusercontent.com/51333504/59077054-9e169080-889e-11e9-9b77-8ca20933cd34.jpg)
+
 
 FEEDBACK RESUMEN PRIMERO
 
