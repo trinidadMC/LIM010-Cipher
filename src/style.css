@@ -1,8 +1,4 @@
-/* AcÃ¡ van tus reglas de estilo */
-/*
-figure{
-    text-align: center;
-}*/
+/*PRIMERA CARA DE ESTILO*/
 *{
     padding: 0;
     margin: 0;
@@ -10,6 +6,9 @@ figure{
 }
 body{
     background-color: blueviolet;
+}
+.CARA1{
+    display: inline;
 }
 .imagenes3{
     display: flex;
@@ -25,81 +24,10 @@ body{
     padding: 20%;
     text-align: center;
     padding-top: 0%;
+    width: 50%;
+    height: 30%
 }
-
-.clv{
-    width: 30%;
-    height: 60%;
-    font-size: 15%;
-    background-color: aliceblue;
-
-}
-.cajamensaje{
-    padding: 20%;
-    text-align: center;
-    padding-top: 0%;
-       
-}
-.cj{
-    display: flex;
-    flex-direction: column;
-}
-
-
-.hide{
-    display: none;
-}
-.show{
-    display: inherit;
-}
-
-.interfaz2{
-    display: flex;
-    flex-direction: column;
-}
-.imagen4{
-    width: 40%;
-    height: auto;
-    align-self: center; 
-}
-.btn2{
-    display:flex;
-    flex-direction: column;
-}
-.btn3{
-    display: flex;
-    flex-direction: column;
-}
-.hide{
-    display: none;
-
-}
-.show{
-    display: inherit;
-}
-.interfaz3{
-    display: flex;
-    flex-direction: column;
-}
-.cajaresultado{
-    padding: 20%;
-    text-align: center;
-    padding-top: 0%;
-          
-}
-.terminar y salir{
-    display: flex;
-    flex-direction: column;
-}
-.terminar volver a inicio{
-    display: flex;
-    flex-direction: column;
-}
-
-.hide{
-    display: none;
-}
-.show{
+.hide {
     display: none;
 }
 

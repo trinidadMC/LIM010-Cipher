@@ -1,5 +1,5 @@
 #INDICE
-- [Spy Girls](#SPY-GIRLS)
+- [Spy Girls](#-SPY-GIRLS)
 - [resumen del proyecto](##-RESUMEN-DEL-PROYECTO)
 - [ux inventigacion](##-UX-INVESTIGACIO)
 - [usuarios](###-USUARIOS)
