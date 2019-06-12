@@ -1,12 +1,12 @@
 /*PRIMERA CARA DE ESTILO*/
 *{
-    padding: 0;
-    margin: 0;
-
+    padding: 0%;
+    margin: 0%;
 }
 body{
     background-color: blueviolet;
 }
+/*PRIMERA CARA ESTILOS*/
 .CARA1{
     display: inline;
 }
@@ -30,10 +30,61 @@ body{
 .hide {
     display: none;
 }
+/*SEGUNDA CARA DE ESTILOS*/
+.CARA2{
+    background-image: url("img/canadidto.png"); 
 
-
-
-
+}
+.contenedor{
+    width: 100px;
+    height: 20px;
+    text-align: justify;
+    box-sizing: 30px;
+}
+.h3{
+    text-align: center;
+    color: antiquewhite;
+}
+.boxm{
+    width: 100px;
+    height: 20px;
+    text-align: justify;
+    box-sizing: 30px;  
+}
+.btn2{
+    width: 100px;
+    height: 20px;
+    text-align: justify;
+    box-sizing: 30px;
+}
+.btn3{
+    width: 100px;
+    height: 20px;
+    text-align: justify;
+    box-sizing: 30px;
+}
+.hide{
+    display: none;
+}
+.CARA3{
+text-align: center;
+}
+.p{
+    text-align: center;
+    color: black;
+}
+.endout{
+    width: 100px;
+    height: 20px;
+    text-align: justify;
+    box-sizing: 30px;
+}
+.endstartagain{
+    width: 100px;
+    height: 20px;
+    text-align: justify;
+    box-sizing: 30px;
+}
 
 
 

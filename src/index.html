@@ -8,63 +8,53 @@
   <!--LINK A ARCHIVO QUE ESTA EN LA MIMA COMPUTADORA  -->
   <link rel="stylesheet" href="style.css" />
 </head>
+<header></header>
 
 <body>
   <!--INTERFACES 1 DE (CARAS2)-->
+  <main>
+    <div id="primeracara" class="CARA1">
+      <div class="imagenes3">
+        <img src="./img/charlie 2.jpg" class="imagen1">
+        <img src="img/titulo.png" class="imagen1 imagen2">
+        <img src="img/charlie.jpg" class="imagen1">
+      </div>
 
-  <div id="primeracara"class="CARA1">
-    <div class="imagenes3">
-      <img src="./img/charlie 2.jpg" class="imagen1">
-      <img src="img/titulo.png" class="imagen1 imagen2">
-      <img src="img/charlie.jpg" class="imagen1">
+
+      <div class="cajatexto">
+        <p>Ingrese la contraeña</p>
+        <!-- CAJA DE TEXTO 1 -->
+        <input class="clv" type="password" id="clave">
+        <!-- BOTON DE CONTRASEÑA -->
+        <button id="btn1" class="btn1">OK</button>
+        <div id="error"></div>
+      </div>
     </div>
+    <!--INTERFAZ 2 DE (CARA2)-->
 
-
-    <div class="cajatexto">
-      <p>Ingrese la contraeña</p>
-      <!-- CAJA DE TEXTO 1 -->
-      <input class="clv" type="password" id="clave">
-      <!-- BOTON DE CONTRASEÑA -->
-      <button id="btn1" class="btn1">OK</button>
-      <div id="error"></div>
-    </div>
-  </div>
-  <!--INTERFAZ 2 DE (CARA2)-->
-
-  <div id="segundacara" class="CARA2 hide ">
-    <img src="img/canadidto.png" class="imagen4">
-    <!-- CAJA DE TEXTO PARA EL MENSAJE 2-->
-    <h3>¡¡Escribe tu mensaje!!</h3>
-    <div class="cj">
-      <input type="text" class="cajamensaje" id="mensaje offset">
+    <div id="segundacara" class="CARA2 hide ">
+    <output type="text" class="contenedor" id="container"></output>
+      <!-- PARRAFO DE MI CAJA DE MENSAJE-->
+      <h3>¡¡Escribe tu mensaje!!</h3>
+      <!-- CAJA DE TEXTO PARA EL MENSAJE 2-->
+      <textarea id="cajamensaje" class="boxm"></textarea>
       <!--BOTONES DE MI 2 CIFRADO-->
-
       <button id="btn2" class="btn2">cifrado</button>
       <button id="btn3" class="btn3">descifrado</button>
     </div>
+
+    <!--INTERFAZ 3 DE (CARAS)-->
+    <div id="terceracara" class="CARA3 hide">
+      <!--PARRAFO DE MI CAJA DE RESULTADO-->
+        <p>¡¡¡exelente reporte spy girl mantente siempre alerta!!!</p>
+      <!--CAJA DE TEXTO DE RESULTADO-->
+      <textarea id="cajaderesultado" clas="result"></textarea>
+  <!--BOTONE DE MI FINALIZAR-->
+        <button id="btn4" class="endout">salir y terminar</button>
+        <!-- BOTON DE FINALIZAR Y VOLVER AL INICIO-->
+        <button id="btn5" class="endstaragain">terminar y voolver al inicio</button>
+  </main>
   </div>
-
-  <!--INTERFAZ 3 DE (CARAS)-->
-  <div id="terceracara" class="CARA3 hide">
-
-    <!--CAJA DE TEXTO DE RESULTADO-->
-    <output type="text" class="cajaresultado" id="resul">
-      <p>¡¡¡exelente reporte spy girl mantente siempre alerta!!!</p>
-
-
-      <!--BOTONE DE MI FINALIZAR-->
-      <button id="btn4" class="terminar y salir"></button>
-      <button id="btn5" class="terminar y volver a inicio"></button>
-
-
-
-
-  </div>
-
-
-
-  <header></header>
-  <main></main>
   <footer></footer>
   <script src="cipher.js"></script>
   <script src="index.js"></script>
