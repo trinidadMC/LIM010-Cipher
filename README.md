@@ -1,17 +1,16 @@
 #INDICE
-- [Spy Girls](#-SPY-GIRLS)
+- [Spy Girls](#-CHICAS-ESPIAS)
 - [resumen del proyecto](##-RESUMEN-DEL-PROYECTO)
 - [ux inventigacion](##-UX-INVESTIGACIO)
 - [usuarios](###-USUARIOS)
   - [¿que necesidades soluciona el usuario?](###-¿QUE-NECESIDADES-SOLUCIONA-AL-USUARIO?)
   - [prototipos](###-PROTOTIPADOS)
   - [Front-end](#front-end)
-- [Entrega](#entrega)
 - [Parte opcional o "Hacker edition"](#parte-opcional-o-hacker-edition)
 - [Recursos y temas relacionados](#recursos-y-temas-relacionados)
 - [Detalles de aprendizaje](#detalles-de-aprendizaje)
 
-# SPY GIRLS 
+#CHICAS ESPIAS  
 
 ## RESUMEN DEL PROYECTO
 Chicas espias tartando de investigar posibles ataques nucleares de otras agencias secretas
@@ -39,6 +38,7 @@ IMAGEN DE MI PRIMER PROTOTIPO EN PAPEL
 
 
 FEEDBACK RESUMEN PRIMERO
+
 
 
 IMAGEN DEL PROTOTIPADO EN BALSAMIQ
