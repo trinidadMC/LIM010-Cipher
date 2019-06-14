@@ -116,6 +116,24 @@ p {
     TEXT-ALIGN: center;
     FONT-SIZE: -webkit-xxx-large;
     font-family: fantasy;
-
+}
+textarea#cajamensaje {
+    WIDTH: -webkit-fill-available;
+    height: -webkit-fill-available;
+    text-align: center;
+    border: solid;
+    color: #131314;
+}
+button#btn2 {
+    width: 125px;
+    height: 48px;
+    border: solid;
+    background-color: darkblue
+}
+button#btn3 {
+    width: 125px;
+    height: 48px;
+    border: solid;
+    background-color: darkred
 
 }

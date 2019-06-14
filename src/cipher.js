@@ -3,11 +3,13 @@ window.cipher = {
     let codificar = '';
     for (let i = 0; i < string.length; i++)
      {
-      let numeroascii = string[i].charCodeAt();
+      let numeroascii = string.charCodeAt(i);
       if (numeroascii >= 65 && numeroascii <= 90) {
         codificar += String.fromCharCode((parseInt(offset) + numeroascii - 65) % 26 + 65);
+      } else if ( numeroascii===32) {
+        codificar+= " ";
       } else {
-        codificar += string.charCodeAt();
+        codificar += numeroascii;
       }
     }
     return codificar;
@@ -17,9 +19,11 @@ window.cipher = {
     for (let i = 0; i < string.length; i++){
       let numeroascii=string[i].charCodeAt();
       if(numeroascii>=65 && numeroascii<=90){
-        decodificar += String.fromCharCode((numeroascii - parseInt(offset) % 26 - 90) + 90);
+        decodificar += String.fromCharCode((numeroascii - parseInt(offset) +65) % 26 + 65);
+      } else if ( numeroascii===32) {
+      decodificar+= " ";
       }else{
-        decodificar += string.charCodeAt()
+        decodificar += string.numeroascii;
       }
     }
     return decodificar;

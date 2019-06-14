@@ -37,7 +37,7 @@ cifradobutton.addEventListener("click", () => {
 
 });
 descifradobutton.addEventListener("click", () => {
-   const resultado = window.cipher.decode(codigo.value, textarea1.value);
+   let resultado = window.cipher.decode(codigo.value, textarea1.value);
    textarea2.value = resultado;
     segundacara.classList.add("hide");
     terceracara.classList.remove("hide")
