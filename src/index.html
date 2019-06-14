@@ -7,33 +7,32 @@
   <title>Caesar Cipher</title>
   <!--LINK A ARCHIVO QUE ESTA EN LA MIMA COMPUTADORA  -->
   <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Monoton&display=swap" rel="stylesheet">
 </head>
 <header></header>
 
-<body>
+<body background="img/fondo.jpg" style="background-size: cover">
   <!--INTERFACES 1 DE (CARAS2)-->
   <main>
     <div id="primeracara" class="CARA1">
       <div class="imagenes3">
         <img src="./img/charlie 2.jpg" class="imagen1">
-        <img src="img/titulo.png" class="imagen1 imagen2">
+        <h1> CHICAS ESPIAS</h1>
         <img src="img/charlie.jpg" class="imagen1">
       </div>
-
-
       <div class="cajatexto">
         <p>Ingrese la contraeña</p>
         <!-- CAJA DE TEXTO 1 -->
         <input class="clv" type="password" id="clave">
         <!-- BOTON DE CONTRASEÑA -->
-        <button id="btn1" class="btn1">OK</button>
+        <button id="btn1" class="btn1">Ingresar</button>
         <div id="error"></div>
       </div>
     </div>
     <!--INTERFAZ 2 DE (CARA2)-->
 
     <div id="segundacara" class="CARA2 hide ">
-    <input type="text" class="contenedor" id="container"></input>
+      <input type="number" class="codigo" id="codigo" MIN="1" max="26">CODIGO</input>
       <!-- PARRAFO DE MI CAJA DE MENSAJE-->
       <h3>¡¡Escribe tu mensaje!!</h3>
       <!-- CAJA DE TEXTO PARA EL MENSAJE 2-->
@@ -46,13 +45,17 @@
     <!--INTERFAZ 3 DE (CARAS)-->
     <div id="terceracara" class="CARA3 hide">
       <!--PARRAFO DE MI CAJA DE RESULTADO-->
-        <p>¡¡¡exelente reporte spy girl mantente siempre alerta!!!</p>
+      <p>¡¡¡ mantente siempre alerta!!!</p>
       <!--CAJA DE TEXTO DE RESULTADO-->
-      <textarea id="cajaderesultado" clas="result"></textarea>
-  <!--BOTONE DE MI FINALIZAR-->
-        <button id="btn4" class="endout">salir y terminar</button>
-        <!-- BOTON DE FINALIZAR Y VOLVER AL INICIO-->
-        <button id="btn5" class="endstaragain">terminar y voolver al inicio</button>
+      <textarea readonly id="resultado" class="resultado"></textarea>
+      <!--BOTONE DE MI FINALIZAR-->
+      <button id="btn4" class="endout">salir y terminar</button>
+      <!-- BOTON DE FINALIZAR Y VOLVER AL INICIO-->
+      <button id="btn5" class="staragain">start again</button>
+      <!--CARA FINAL DE MI PAGINA WEB-->
+      <div id="carafinal" class="final hide">
+        <p>EXELENTE REPORTE ESPERE NUEVAS ORDENES </p><div>
+         
   </main>
   </div>
   <footer></footer>
