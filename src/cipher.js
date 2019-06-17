@@ -25,5 +25,3 @@ decode: (offset, string) => {
 };
 
 
-
-
