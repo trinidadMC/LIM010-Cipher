@@ -30,7 +30,7 @@ const textarea1 = document.getElementById("cajamensaje");
 const textarea2 = document.getElementById("resultado");
 
 cifradobutton.addEventListener("click", () => {
-  let resultado = window.cipher.encode(codigo.value, textarea1.value);
+  const resultado = window.cipher.encode(codigo.value, textarea1.value);
   textarea2.value = resultado;
   segundacara.classList.add("hide");
   terceracara.classList.remove("hide");

@@ -5,33 +5,25 @@
 body{
     background-color: blueviolet;
 }
-h1 {
-    font-family: 'Monoton', cursive;
-    font-family: 'Monoton', cursive;
-    font-size: 100px;
-}
-input#clave {
-    width: inherit;
-    height: inherit;
-    border-style: dotted;
+/*ESTILOS DE MI PRIMERA CARA*/
+.btn1 {
+    width: 211px;
+    height: 71px;
+    border: dashed;
     font-size: xx-large;
+    position: static;
+    margin: 45px;
+    padding: 16px;
+    display: table-column;
 }
-input#codigo {
-    width: inherit;
-    height: inherit;
-    border-style: dotted;
-    font-size: xx-large;
+ .clv{
+        height: 72px;
+        width: 414px;
+        border: dashed;
+        color: #696768;
+        font-size: xx-large
 }
-div#segundacara {
-    text-align: center;
-    width: auto;
-}
-button#btn1 {
-    width: inherit;
-    height: inherit;
-    border-style: dotted;
-    font-size: xx-large;
-}
+
 .CARA1{
     display: inline;
 }
@@ -45,12 +37,32 @@ button#btn1 {
 .imagen2{
     width: 50%;
 }
+h1 {
+    font-family: 'Monoton', cursive;
+    font-family: 'Monoton', cursive;
+    font-size: 100px;
+}
+p {
+    TEXT-ALIGN: center;
+    FONT-SIZE: 34px;
+    font-family: fantasy;
+    color:black;
+}
+/*ESTILOS DE MI SEGUNDA CARA */
+
 .cajatexto{
     padding: 20%;
     text-align: center;
     padding-top: 0%;
     width: 50%;
     height: 30%
+}
+.codigo {
+    width: 199px;
+    height: 74px;
+    border-style: dotted;
+    font-size: xx-large;
+    text-align: center;
 }
 .hide {
     display: none;
@@ -67,29 +79,44 @@ button#btn1 {
     box-sizing: 30px;
 }
 .h3{
+    
+    font-size: 38PX;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 195px;
+    margin-inline-end: 195px;
+    font-weight: bold;
     text-align: center;
-    color: antiquewhite;
+
 }
-.boxm{
-    width: 100px;
-    height: 20px;
+.cajamensaje {
+    WIDTH: 439px;
+    height: 222px;
+    text-align: center;
+    border: outset;
+    color: #8aedfa;
+}
+.btn2 {
+    width: 125px;
+    height: 48px;
+    border: dotted;
+    background-color: #62d5c1;
+    position: static;
     text-align: center;
 }
-.btn2{
-    width: 100px;
-    height: 20px;
-    text-align: justify;
-    box-sizing: 30px;
+.btn3 {
+    width: 125px;
+    height: 48px;
+    border: dotted;
+    background-color: rgb(64, 238, 157);
+    position: static;
+    text-align: center;
 }
-.btn3{
-    width: 100px;
-    height: 20px;
-    text-align: justify;
-    box-sizing: 30px;
-}
+
 .hide{
     display: none;
 }
+/*estilos de mim tercera cara*/
 .CARA3{
 text-align: center;
 }
@@ -112,32 +139,7 @@ text-align: center;
 .hide{
     display:none;
 }
-p {
-    TEXT-ALIGN: center;
-    FONT-SIZE: -webkit-xxx-large;
-    font-family: fantasy;
-}
-textarea#cajamensaje {
-    WIDTH: -webkit-fill-available;
-    height: -webkit-fill-available;
-    text-align: center;
-    border: solid;
-    color: #131314;
-}
-button#btn2 {
-    width: 125px;
-    height: 48px;
-    border: solid;
-    background-color: darkblue
-}
-button#btn3 {
-    width: 125px;
-    height: 48px;
-    border: solid;
-    background-color: darkred
-
-}
 footer {
     text-align: center;
     font-family: cursive;
-}
+} 
